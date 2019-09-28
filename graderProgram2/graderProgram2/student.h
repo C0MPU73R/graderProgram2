@@ -1,3 +1,4 @@
+#pragma once
 #include <string>
 #include <vector>
 using namespace std;
@@ -5,6 +6,7 @@ class student
 {
 public:
 	student(string full_name);
+	void setName(string full_name);
 	void setId(int id);
 	void setScores(vector<double> scores);
 	void calcAverageStudentScore();

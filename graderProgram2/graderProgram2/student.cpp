@@ -6,6 +6,11 @@ student::student(string full_name)
 	this->avg = 0.0;
 }
 
+void student::setName(string full_name)
+{
+	this->full_name = full_name;
+}
+
 void student::setId(int id)
 {
 	this->id = id;
