@@ -1,26 +1,24 @@
 #include "student.h"
-
+student::student()
+{
+}
 student::student(string full_name)
 {
 	this->full_name = full_name;
 	this->avg = 0.0;
 }
-
 void student::setName(string full_name)
 {
 	this->full_name = full_name;
 }
-
 void student::setId(int id)
 {
 	this->id = id;
 }
-
-void student::setScores(vector<double> scores)
+void student::setScores(int score)
 {
-	this->scores = scores; //invokes overloaded assignment operator
+	this->scores.push_back(score);
 }
-
 void student::calcAverageStudentScore()
 {
 	for (int index = 0; index < scores.size(); index++)
@@ -29,12 +27,10 @@ void student::calcAverageStudentScore()
 	}
 	avg /= scores.size();
 }
-
 double student::getAverageStudentScore()
 {
 	return this->avg;
 }
-
 char student::getLetterGrade()
 {
 	if (getAverageStudentScore() >= 90)

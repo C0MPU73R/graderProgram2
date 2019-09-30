@@ -1,5 +1,14 @@
 ﻿  Source.cpp
-D:\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(15,28): warning C4018:  '<': signed/unsigned mismatch
-D:\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(39,28): warning C4018:  '<': signed/unsigned mismatch
-D:\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(41,31): warning C4018:  '<': signed/unsigned mismatch
-  graderProgram2.vcxproj -> D:\GitHub\graderProgram2\graderProgram2\Debug\graderProgram2.exe
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(44,28): warning C4018:  '<': signed/unsigned mismatch
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C3867:  'std::vector<std::string,std::allocator<_Ty>>::size': non-standard syntax; use '&' to create a pointer to member
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C3867:         with
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C3867:         [
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C3867:             _Ty=std::string
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C3867:         ]
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C2446:  '<': no conversion from 'unsigned int (__thiscall std::vector<std::string,std::allocator<_Ty>>::* )(void) noexcept const' to 'int'
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C2446:         with
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C2446:         [
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C2446:             _Ty=std::string
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,49): error C2446:         ]
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,45): message :  There is no context in which this conversion is possible
+H:\Directory\Main\Computer Programming\Source Control\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(59,28): warning C4018:  '<': signed/unsigned mismatch

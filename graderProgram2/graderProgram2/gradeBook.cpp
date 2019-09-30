@@ -5,12 +5,10 @@ gradeBook::gradeBook()
 	this->classAvg = 0.0;
 	this->classAvgLetterGrade = ' ';
 }
-
 void gradeBook::addStudent(student stud)
 {
 	this->students.push_back(stud);
 }
-
 void gradeBook::calcClassAverage()
 {
 	for (int index = 0; index < students.size(); index++)
@@ -19,7 +17,6 @@ void gradeBook::calcClassAverage()
 	}
 	classAvg /= students.size();
 }
-
 void gradeBook::setClassLetterAverage()
 {
 	if (getClassAverage() >= 90)
@@ -48,12 +45,10 @@ void gradeBook::setClassLetterAverage()
 		classAvgLetterGrade = 'F';
 	}
 }
-
 double gradeBook::getClassAverage()
 {
 	return this->classAvg;
 }
-
 char gradeBook::getClassLetterAverage()
 {
 	return this->classAvgLetterGrade;
