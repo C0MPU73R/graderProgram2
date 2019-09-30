@@ -26,12 +26,12 @@ int main()
 	temp.resize(4);
 	int spaceIndex; 
 	int index = 0;
-	while (!ins.eof())
+	while (!ins.eof()) //transfer info from file to 2d string vector
 	{
 		getline(ins, studInfoLineFromFile);
 		spaceIndex = studInfoLineFromFile.find(" ");
 		
-		while (spaceIndex >= 0) //source, inspired by: (lines 29 - 37) Eric Charnesky
+		while (spaceIndex >= 0) //source, inspired by: (lines 32 - 41) Eric Charnesky
 		{
 			temp[index].push_back(studInfoLineFromFile.substr(0, spaceIndex));
 			studInfoLineFromFile = studInfoLineFromFile.substr(spaceIndex + 1, studInfoLineFromFile.size() - spaceIndex);
