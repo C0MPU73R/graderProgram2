@@ -41,9 +41,10 @@ int main()
 	}
 	//transfer information from file in 2d string vector to 2d student vector;
 
+	student* nS;
 	for (int index = 0; index < temp.size(); index++)
 	{
-		student* nS = new student();
+		nS = new student();
 		nS->setName(temp[index][0]);
 		for (int index2 = 1; index2 < temp[index].size(); index2++)
 		{

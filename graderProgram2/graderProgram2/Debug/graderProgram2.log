@@ -1,5 +1,5 @@
 ﻿  Source.cpp
-D:\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(44,28): warning C4018:  '<': signed/unsigned mismatch
-D:\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(48,31): warning C4018:  '<': signed/unsigned mismatch
-D:\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(59,28): warning C4018:  '<': signed/unsigned mismatch
+D:\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(45,28): warning C4018:  '<': signed/unsigned mismatch
+D:\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(49,31): warning C4018:  '<': signed/unsigned mismatch
+D:\GitHub\graderProgram2\graderProgram2\graderProgram2\Source.cpp(60,28): warning C4018:  '<': signed/unsigned mismatch
   graderProgram2.vcxproj -> D:\GitHub\graderProgram2\graderProgram2\Debug\graderProgram2.exe
