@@ -45,7 +45,7 @@ int main()
 	{
 		student* nS = new student();
 		nS->setName(temp[index][0]);
-		for (int index2 = 1; index2 < temp[index].size; index2++)
+		for (int index2 = 1; index2 < temp[index].size(); index2++)
 		{
 			nS->setScores(stoi(temp[index][index2]));
 		}
@@ -58,21 +58,15 @@ int main()
 	gradeBook a;
 	for (int index = 0; index < students.size(); index++)
 	{
+		students[index].calcAverageStudentScore();
 		a.addStudent(students[index]);
 	}
+	//gradebook added all students
+	a.calcClassAverage();
+	cout << a.getClassAverage() << endl;
+	a.setClassLetterAverage();
+	cout << a.getClassLetterAverage() << endl;
 
-
-
-
-
-
-
-
-
-
-
-
-	
 	system("pause");
 	return 0;
 }
