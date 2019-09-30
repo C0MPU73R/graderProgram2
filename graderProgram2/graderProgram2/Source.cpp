@@ -45,9 +45,9 @@ int main()
 	{
 		student* nS = new student();
 		nS->setName(temp[index][0]);
-		for (int index2 = 0; index2 < temp[index].size; index2++)
+		for (int index2 = 1; index2 < temp[index].size; index2++)
 		{
-			nS->setScores(stoi(temp[index][index2+1]));
+			nS->setScores(stoi(temp[index][index2]));
 		}
 		students.push_back(*nS);
 	}
